@@ -1,4 +1,5 @@
 import { FaShoppingCart, FaRegBookmark, FaStar, FaFireAlt } from 'react-icons/fa';
+import './Product.css';
 
 export function Products(props) {
     return (
