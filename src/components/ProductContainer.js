@@ -29,6 +29,19 @@ export default function ProductContainer() {
                        />
                    ))}
                </div>
+               <div className='productList'>
+                   {contents.map(contents => (
+                       <Products 
+                           key={contents.id}
+                           image={contents.image}
+                           name={contents.name}
+                           price={contents.price}
+                           totalSales={contents.totalSales}
+                           timeLeft={contents.timeLeft}
+                           rating={contents.rating}
+                       />
+                   ))}
+               </div>
                <div className='product-description-bottom'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 

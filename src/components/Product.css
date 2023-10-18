@@ -28,7 +28,8 @@
   
   .productCard {
     position: relative;
-    background-color: var(--color-grey-primary);
+    /* background-color: var(--color-grey-primary); */
+    background: linear-gradient(to bottom, #858585, #ffffff);
     
     border-radius: 1rem;
     margin: 1rem;
