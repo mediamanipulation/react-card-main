@@ -17,7 +17,7 @@
     margin: 0 auto;
   
   }
-  
+
   .productList {
     margin-top: 2rem;
     display: grid;
@@ -30,7 +30,6 @@
     position: relative;
     /* background-color: var(--color-grey-primary); */
     background: linear-gradient(to bottom, #858585, #ffffff);
-
     border-radius: 1rem;
     margin: 1rem;
     flex: 1 0 25rem;
@@ -89,8 +88,6 @@
     color: #fff;
   }
 
-
-
   .productCard__cart {
     position: absolute;
     top: 0;
@@ -130,6 +127,7 @@
   @media (min-width: 1200px) {
     .productList {
       grid-template-columns: repeat(3, 1fr);
+ 
     }
   }
   
